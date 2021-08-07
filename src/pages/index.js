@@ -8,8 +8,11 @@ import Footer from '../components/Footer';
 import { v4 as uuidv4} from 'uuid';
 import api from '../api/values';
 
+
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false);
+
+    const axios = require('axios');
 
     const toggle = () => {
         setIsOpen(!isOpen)
@@ -21,7 +24,7 @@ const Home = () => {
             ...values 
         }
 
-        const response = await api.post("/", request)
+        const response = await axios.post("https://yellow-box-db.herokuapp.com/values", request)
         if(!response){
         }
       }
