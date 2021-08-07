@@ -1,0 +1,51 @@
+export const homeObjOne = {
+    id: 'about us',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'Who we are',
+    headline: 'Its All About Growing...',
+    description: 'We are a niche consulting firm focusing on adding value towards your journey of growht. We capture your narratives, we understand your requirement and we realise your concern. Our deliverables are made only to address your need.',
+    buttonLabel: 'About Us', 
+    imgStart: false,
+    img: require('../../images/svg-1.svg').default,
+    alt: 'image1',
+    dark: true,
+    primary: true,
+    darkText: false,
+};
+
+export const homeObjTwo = {
+    id: 'what we do',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Define, develop & deploy biz leaders\' innovative strategies & ideas in reality',
+    headline: 'What we do...',
+    description: 
+    'We distinguish processes to be perceived & learnt better. Our methodology and style are very innovative and digitalized. It would not only be used as process repository but also as self learning. Our industry-wise SMEs ensure deeper understanding and quicker turn-around time. We prepare uncomplicated & unique Decision-Support-Systems for coporate leaders towards superior & appropriate resolutions.',
+    buttonLabel: 'Learn more', 
+    imgStart: true,
+    img: require('../../images/svg-3.svg').default,
+    alt: 'image3',
+    dark: false,
+    primary: false,
+    darkText: true,
+};
+
+export const homeObjThree = {
+    id: 'industry solutions',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: 'Experts at what we do',
+    headline: 'Industry solutions...',
+    description: 'Banking: Defining and digitizing entire process domain for branch banking, back-office, compliance, infrastructure, corporate legal, retail asset and more... Telecom: Deep expertise for operations - both process and definition and roll-out project management...',
+    buttonLabel: 'Demo', 
+    imgStart: false,
+    img: require('../../images/svg-4.svg').default,
+    alt: 'image4',
+    dark: false,
+    primary: false,
+    darkText: true,
+};

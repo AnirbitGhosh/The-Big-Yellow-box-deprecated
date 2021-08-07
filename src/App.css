@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+a {
+  color: #fff;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    font-size: 14px;
+}
+
+a:hover {
+  color: cyan;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
