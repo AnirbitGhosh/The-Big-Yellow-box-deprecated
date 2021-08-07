@@ -21,7 +21,7 @@ const Home = () => {
             ...values 
         }
 
-        const response = await api.post("/values", request)
+        const response = await api.post("/", request)
         if(!response){
         }
       }
