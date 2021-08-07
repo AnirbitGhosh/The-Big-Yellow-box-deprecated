@@ -6,7 +6,7 @@ import HeroSection from '../components/HeroSection';
 // import Services from '../components/Services';
 import Footer from '../components/Footer';
 import { v4 as uuidv4} from 'uuid';
-import api from '../api/values';
+// import api from '../api/values';
 
 
 const Home = () => {
