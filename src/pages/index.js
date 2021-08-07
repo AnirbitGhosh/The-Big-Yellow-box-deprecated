@@ -22,6 +22,8 @@ const Home = () => {
         }
 
         const response = await api.post("/values", request)
+        if(!response){
+        }
       }
 
     return (
